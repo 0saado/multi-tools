@@ -1,3 +1,4 @@
+import main
 import random
 import os
 import time
@@ -41,6 +42,20 @@ def menu():
         long()
     elif choice == 3:
         custom()
+    print(f'''{F.WHITE}
+          
+    [1] Main Menu
+    [2] Password Generator
+    [3] Exit
+          
+          ''')
+    choice = int(input('>>>>> '))
+    if choice == 1:
+        main.menu()
+    elif choice == 2:
+        menu()
+    elif choice == 3:
+        exit()
     
 def short():
     os.system('cls')

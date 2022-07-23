@@ -1,0 +1,5 @@
+1: _ Uploaded first files
+   _ Added the requirements.txt
+
+2: _ Added new options at the end of the "Password Generator" tool
+   _ Added new options at the end of the "Fake Hack" tool

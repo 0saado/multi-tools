@@ -48,7 +48,7 @@ def menu():
     print(f'''{F.WHITE}
           
     [1] Main Menu
-    [2] Password Generator
+    [2] Fake Hack
     [3] Exit
           
           ''')
